@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #499898;
+}
+
+#app {
+  height: 100vh;
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: 25px auto;
+  max-width: 100%;
+}
+
+.entry {
+  background: rgba(59, 74, 107, 0.4);
+  padding: 20px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#entryHolder {
+  margin: 20px auto;
+}
+
+#date {
+  margin-bottom: 10px;
+}
+#generate {
+  cursor: pointer;
+  display: block;
+  margin: 25px 0;
+}
+
+#zip {
+  display: block;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+div .zip {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#temp {
+  margin-bottom: 10px;
+}
+
+#content {
+  margin-bottom: 10px;
+}
+
+.headline {
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 100px
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+input {
+  display: block;
+  height: 60px;
+  width: 320px;
+  padding: 10px;
+  background: rgba(59, 74, 107, 0.4);
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  background: #a91a1a85;
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  background: rgba(59, 74, 107, 0.4);
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f0d43a;
+  font-family: "Oswald", sans-serif;
+}
